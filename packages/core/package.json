@@ -1,0 +1,22 @@
+{
+  "name": "@wh-imooc-cli-dev/core",
+  "version": "1.0.0",
+  "description": "imooc-cli-dev core",
+  "author": "wangheng <wangheng@vchangyi.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/core.test.js"
+  },
+  "dependencies": {
+    "@wh-imooc-cli-dev/utils": "^1.0.0"
+  }
+}
